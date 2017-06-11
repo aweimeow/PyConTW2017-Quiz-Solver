@@ -113,23 +113,3 @@ if __name__ == '__main__':
 
     answer(client, s, c)
 
-"""
-sent = client.send('299082580532144', '2011')
-if sent:
-    print('sent')
-"""
-"""
-def parse(t):
-    for x in dir(t):
-        if x[0] != '_':
-            print('%s: %s' % (x, t.__dict__[x]))
-print(chat_bot)
-print(dir(chat_bot[1]))
-parse(chat_bot[0])
-"""
-
-#last_messages = client.getThreadInfo('1072576816085989', last_n=20)
-#last_messages.reverse()  # messages come in reversed order
-
-#for message in last_messages:
-#    print(message.body)
